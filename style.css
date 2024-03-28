@@ -1,0 +1,228 @@
+html{
+    background-color:antiquewhite;
+}
+.navbar{
+
+    display:flex;
+    background-color:darkgoldenrod;
+    border-radius: 30px;
+    color:black;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none;
+    padding: 3px 3px;
+    text-decoration: none;
+    margin: 1px 10px;
+}
+.navbar li a{
+    padding:3px 3px;
+    color: white;
+    text-decoration: none;
+    margin-left:35px;
+    margin-right:35px;
+}
+div.search{
+    float: right;
+    
+    margin:auto;
+}
+div.left{
+    margin:auto;
+    float:left;
+}
+.navbar input{
+    border:greenyellow;
+    border-radius: 300px;
+    background-color: antiquewhite;
+}
+.navbar li a:hover{
+    
+    color:yellow;
+
+}
+.navbar div{
+    padding:0px 50px;
+}
+.navbar div li img{
+    width:20px;
+}
+div.search ui li{
+    padding:0px 0px;
+    margin:0px 10px;
+}
+
+.container{
+    width:100%;
+    height:95vh;
+    background-color: antiquewhite;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    width:80%;
+    height:fit-content;
+    background-color:antiquewhite;
+
+}
+.swiper-slide img{
+    width:100%;
+
+}
+.left img{
+    mix-blend-mode: lighten;
+    height: 50px;
+    width: 80px;
+    
+}
+.swiper-slide img{
+    height: 700px;
+    width:1150px;
+}
+.products{
+    background-color: darkgoldenrod;
+}
+.products center{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    color:white;
+
+}
+.products img{
+    mix-blend-mode: lighten;
+    height:80px;
+}
+.itemsmenu1{
+    display:flex;
+    background-color:antiquewhite;
+    margin-top:20px;
+    font-size:20px;
+
+    
+}
+.itemsmenu1 img{
+    height:400px;
+    width:400px;
+}
+.itemsmenu1 div{
+    margin-left:80px;
+}
+.itemsmenu2{
+    display:flex;
+    background-color:antiquewhite;
+    margin-top:20px;
+    font-size: 20px;
+
+    
+}
+.itemsmenu2 img{
+    height:400px;
+    width:400px;
+}
+.itemsmenu2 div{
+    margin-left:80px;
+}
+
+.itemsmenu1 a{
+    font-size:15px;
+    font-family: fantasy;
+    text-decoration: none;
+    color:goldenrod;
+    margin-top:none;
+}
+.itemsmenu2 a{
+    font-size:15px;
+    font-family: fantasy;
+    text-decoration: none;
+    color:goldenrod;
+
+}
+.itemsmenu1 a:hover{
+    color:black;
+}
+.itemsmenu2 a:hover{
+    color:black;
+}
+.more{
+    margin-top:80px;
+}
+.more a{
+    font-family: fantasy;
+    font-size:60px;
+    text-decoration: none;
+    color:goldenrod;
+    
+}
+.more a:hover{
+    color:black;
+}
+.more img{
+    width:60px;
+    height:50px;
+    
+}
+
+
+
+.aboutheading{
+    background-color: darkgoldenrod;
+    margin-top:120px;
+}
+.aboutheading center{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    color:white;
+
+}
+.aboutheading img{
+    mix-blend-mode: lighten;
+    height:80px;
+}
+
+.about{
+    display:flex;
+    background-color:rgb(95, 188, 117);
+    color:white;
+    font-size:20px;
+    font-family: monospace;
+}
+.about img{
+    mix-blend-mode:lighten;
+}
+
+.contacttitle{
+    background-color:darkgoldenrod;
+    margin-top:120px;
+}
+.contacttitle center{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    color:white;
+
+}
+.contacttitle img{
+    mix-blend-mode: lighten;
+    height:80px;
+}
+.contactus{
+    display: flex;
+    background-color: black;
+    color:white;
+}
+.contactus img{
+    mix-blend-mode: lighten;
+}
+
+.map img{
+    width:1450px;
+    height:500px;
+}
+.copyrights{
+    background-color: black;
+    color:white;
+    font-size:25px;
+}

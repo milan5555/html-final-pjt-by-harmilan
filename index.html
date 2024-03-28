@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alora-Make your life beautiful.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="left">
+            <img src="images\lg1.jpeg">
+        </div>
+        <div class="mid">
+        <ul>
+            <li><a href="Stella.html">Home</a> </li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        </div>
+            <div class="search">
+                <ul>
+                    <li><img src="search bar.png"></li>
+                <li><input type="text" name="search" id="search"  placerholder="search"></li>
+                </ul> 
+            </div>
+
+        
+    </nav>
+
+
+    <div class="container">
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            
+            <div class="swiper-slide"><img src="images\high-heel-shoes.jpg"></div>
+            <div class="swiper-slide"><img src="images\high-heels-black-velvet.jpg"></div>
+            <div class="swiper-slide"><img src="images\wepik-export-20230803081306Iz4g.jpeg"></div>
+            <div class="swiper-slide"><img src="images\wepik-export-20230803075631KjGY.jpeg"></div>
+            
+            </div>
+                <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+  
+                <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+  
+              
+            </div>
+
+    </div>
+    <div class="products">
+        <center> <img src="images\lg1.jpeg"> Our Products <img src="images\lg1.jpeg"></center>
+    </div>
+
+    <div class="itemsmenu1">
+        <div class=item1>
+            <img src="images\high-heel-shoes.jpg"> <br><br>
+            <center>Price:$249<a href="#"><h1>Buy</h1> </a></center>
+        </div>
+
+        
+        <div class="item2">
+            <img src="images\high-heels-black-velvet.jpg"><br><br>
+            <center>Price:$199 <a href="#"><h1>Buy</h1></a></center>
+        </div>
+        <div class="item3">
+                        <img src="images\wepik-export-20230803075631KjGY.jpeg"><br><br>
+                        <center>Price:$399 <a href="#"><h1>Buy</h1></a></center>
+        </div>
+        
+
+
+    </div>
+    
+    <div class="itemsmenu2">
+        <div class=item4>
+            <img src="images\WhatsApp Image 2023-08-03 at 12.29.17 PM.jpg"> <br><br>
+            <center>Price:$449<a href="#"><h1>Buy</h1> </a></center>
+        </div>
+
+        
+        <div class="item5">
+            <img src="images\WhatsApp Image 2023-08-03 at 12.29.54 PM.jpg"> <br><br>
+            <center>Price:$49 <a href="#"><h1>Buy</h1></a></center>
+        </div>
+        <div class="item6">
+                        <img src="images\WhatsApp Image 2023-08-03 at 12.29.55 PM.jpg"><br><br>
+                        <center>Price:$99 <a href="#"><h1>Buy</h1></a></center>
+        </div>
+        
+
+
+    </div>
+
+    <div class="more">
+        <center><img src="images\lg1.jpeg"><a href="#">SHOW MORE</a><img src="images\lg1.jpeg"></center>
+    </div>
+
+    <div class="aboutheading">
+        <center> <img src="images\lg1.jpeg"> About Us <img src="images\lg1.jpeg"></center>
+    </div>
+
+
+    <div class="about">
+        <div class="theroy">
+        <p>Passionate about fine footwear, Alora opened its flagship store in 1980 at Jalandhar,Punjab and has rapidly grown into a recognizable leader in fashionable, Indian & European influenced footwear and accessories.
+
+           <br><br><br> Alora offers footwear for every occasion and stresses the importance of comfort without compromising fashion. We strive to achieve high quality standards by procuring quality leathers and fabrics. 
+           <br><br><br>Our store personnel are handpicked and trained in proper fit, fashion consultation and the method of individual customer attention and satisfaction.
+            
+            <br><br><br>The attention to detail and uniqueness of our shoes, along with the broad selection of sizes and materials, allows us to stand apart from other brands. We have pioneered the art of handcrafting leather.</p>
+        
+        </div>
+        <div class="image">
+            <img src="images\about image.png">
+        </div>
+
+    </div>
+    <div class="contacttitle">
+        <center> <img src="images\lg1.jpeg"> Contact Us <img src="images\lg1.jpeg"></center>
+    </div>
+    <nav class="contactus">
+        <div class="left">
+            Location: Jalandhar,Pujab <br><br> 
+            Contact:+91 32994392889 <br><br>
+            Emai:Alora@gmailcom   <br><br>
+            &nbsp &nbsp &nbsp &nbsp<img src="images/facebook and instagram.png">
+
+        </div>
+        <div class="mid"> 
+        </div>
+        <div class="right">
+                
+
+        </div>
+    </nav>
+
+    <div class="map">
+        <img  src="images\map.png">
+    </div>
+
+    <div class="copyrights">
+       <center>  © Copyrights reserverd for  2023, The Alora & ©Harmilan Kumar </center> 
+    </div>
+
+
+
+ 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+
+        const swiper = new Swiper('.swiper', {
+           
+            autoplay:{
+                delay:3000,
+                disableOnInteraction:false,
+            },
+
+            loop: true,
+          
+            // If we need pagination
+            pagination: {
+              el: '.swiper-pagination',
+              clickable:true,
+            },
+          
+            // Navigation arrows
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          
+         
+          });
+
+    </script>
+</body>
+</html>
